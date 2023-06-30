@@ -1,0 +1,16 @@
+conda create -n ds_study python=3.8 버전 임의지정가능
+
+conda activate ds_study 가상환경 활성화
+
+conda deactivate 가상환경 비활성화
+
+conda env list 가상환경 목록
+
+conda env remove -n 'name' 가상환경 삭제
+
+
+@한글설정코드
+import matplotlib.pyplot as plt
+%matplotlib inline
+from matplotlib import rc
+rc("font", family='Malgun Gothic')
